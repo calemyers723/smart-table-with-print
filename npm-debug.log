@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/media/kyle/C/projects/github/angular-phonecat',
+6 verbose install   [ 'karma',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-jasmine',
+6 verbose install     'protractor',
+6 verbose install     'http-server',
+6 verbose install     'tmp',
+6 verbose install     'bower',
+6 verbose install     'shelljs' ] ]
+7 info preinstall angular-phonecat@0.0.0
+8 warn package.json karma-chrome-launcher@0.1.7 No README data
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping karma-chrome-launcher@^0.1.4 /media/kyle/C/projects/github/angular-phonecat
+11 verbose already installed skipping karma-jasmine@^0.1.5 /media/kyle/C/projects/github/angular-phonecat
+12 verbose already installed skipping protractor@~1.0.0 /media/kyle/C/projects/github/angular-phonecat
+13 verbose already installed skipping http-server@^0.6.1 /media/kyle/C/projects/github/angular-phonecat
+14 verbose already installed skipping tmp@0.0.23 /media/kyle/C/projects/github/angular-phonecat
+15 verbose already installed skipping bower@^1.3.1 /media/kyle/C/projects/github/angular-phonecat
+16 verbose already installed skipping shelljs@^0.2.6 /media/kyle/C/projects/github/angular-phonecat
+17 verbose already installed skipping karma@^0.12.16 /media/kyle/C/projects/github/angular-phonecat
+18 silly resolved []
+19 info build /media/kyle/C/projects/github/angular-phonecat
+20 verbose linkStuff [ false, false, false, '/media/kyle/C/projects/github' ]
+21 info linkStuff angular-phonecat@0.0.0
+22 verbose linkBins angular-phonecat@0.0.0
+23 verbose linkMans angular-phonecat@0.0.0
+24 verbose rebuildBundles angular-phonecat@0.0.0
+25 verbose rebuildBundles [ '.bin',
+25 verbose rebuildBundles   'bower',
+25 verbose rebuildBundles   'http-server',
+25 verbose rebuildBundles   'karma',
+25 verbose rebuildBundles   'karma-chrome-launcher',
+25 verbose rebuildBundles   'karma-jasmine',
+25 verbose rebuildBundles   'protractor',
+25 verbose rebuildBundles   'shelljs',
+25 verbose rebuildBundles   'tmp' ]
+26 info install angular-phonecat@0.0.0
+27 info postinstall angular-phonecat@0.0.0
+28 verbose unsafe-perm in lifecycle true
+29 info angular-phonecat@0.0.0 Failed to exec postinstall script
+30 error angular-phonecat@0.0.0 postinstall: `bower install`
+30 error Exit status 1
+31 error Failed at the angular-phonecat@0.0.0 postinstall script.
+31 error This is most likely a problem with the angular-phonecat package,
+31 error not with npm itself.
+31 error Tell the author that this fails on your system:
+31 error     bower install
+31 error You can get their info via:
+31 error     npm owner ls angular-phonecat
+31 error There is likely additional logging output above.
+32 error System Linux 3.13.0-49-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install"
+34 error cwd /media/kyle/C/projects/github/angular-phonecat
+35 error node -v v0.10.37
+36 error npm -v 1.4.28
+37 error code ELIFECYCLE
+38 verbose exit [ 1, true ]
