@@ -45,10 +45,12 @@ it whenever you like.
 ### What is the customization of the smart table
 
 - js/smart-table.js file
-For printing the entire scope data, the new model that ends with 'Print' is added in the st-table directive
+
+For printing the entire scope data, the new model that ends with 'Print' is added in the st-table directive.
 Please check the partials/smart-table.html how to use this new model
 
 - partials/smart-table.html
+
 You can see the rowCollectionPrint model without declaring, which is declared in customized smart table for printing entire scope data.
 
 ## Application Directory Layout
